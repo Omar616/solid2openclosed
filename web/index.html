@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Calculadora</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body style=" background-color: aliceblue">
+        <form method="post" action="Receiver">
+            Calculadora de perimetros y areas en base a sus lados
+            <br>
+            Ingrese un valor para el lado de la figura, recuerda que todos los lados seran iguales
+            <br>Figura<select name="shape" required>
+                <option  value="triangle">Triángulo</option>
+                <option value="rectangle">Rectángulo</option>
+            </select>
+            <br>
+            <br>
+            Numero de lados<input type="text" name="numsides" required>
+            <input type="submit" value="Calcular">
+        </form>
+    </body>
+</html>
